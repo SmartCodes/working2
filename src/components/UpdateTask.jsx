@@ -47,7 +47,7 @@ const UpdateTask = () => {
     }
   return (
     <div>
-        <form>
+        <form><h3>Update Task</h3>
             <input type='text' name='title' value={updateValues.title} onChange={handleSetUpdateValues} />
             <input type='text' name='desc' value={updateValues.desc} onChange={handleSetUpdateValues} />
             <button onClick={updateItem}>Update</button>
