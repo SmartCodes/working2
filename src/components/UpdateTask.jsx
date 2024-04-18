@@ -40,7 +40,7 @@ const UpdateTask = () => {
                 body: JSON.stringify(updateValues)
             })
             const result = await response.json()
-            // setUpdateValues(prev => ([...prev, ]))
+            window.location.href = "https://working2-eaqw.onrender.com"
         }catch(error){
             console.log(error.message)
         }
